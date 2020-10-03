@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Final</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <span class="js-weather weather"></span>
+    <div class="js-clock clock">
+      <h1>00:00:00</h1>
+    </div>
+    <main class="main">
+      <div class="main__left">
+        <form class="js-form form">
+          <input type="text" placeholder="What is your name?" />
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+      </div>
+
+      <div class="main__right">
+        <form id="js-form">
+          <input type="text" placeholder="Write a to do" />
+        </form>
+        <div class="action">
+          <div>
+            <h3>Pending</h3>
+            <ul id="js-pending"></ul>
+          </div>
+          <div>
+            <h3>Finished</h3>
+            <ul id="js-finished"></ul>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="bg.js"></script>
+    <script src="weather.js"></script>
+    <script src="clock.js"></script>
+    <script src="name.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
